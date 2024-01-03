@@ -23,7 +23,6 @@ body {
 }
 
 .sidebar__navigation ul {
-	list-style: none;
 	margin-top: 20px;
 }
 
@@ -31,22 +30,47 @@ body {
 	padding: 10px 0px;
 }
 
-.sidebar__navigation ul li a {
+.navigation__a {
 	color: #b3b3b3;
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 13px;
 }
 
-.sidebar__navigation ul li a:hover {
+.navigation__a .fa {
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.navigation__a:hover {
 	color: #ffffff;
 }
 
-.sidebar__navigation ul li a:hover .fa { /* Icons stay the same color while de text is hovered */
+.navigation__a:hover .fa { /* Icons stay the same color while de text is hovered */
 	color: #b3b3b3;
 }
 
-.sidebar__navigation ul li a .fa:hover {
+.navigation__a .fa:hover {
 	color: #ffffff;
 }
 
+.sidebar__policies {
+	position: absolute;
+	bottom: 70px;
+}
+
+.sidebar__policies ul li {
+	list-style: none;
+	padding-bottom: 5px;
+}
+
+.policies__a {
+	color: #b3b3b3;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.policies__a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
