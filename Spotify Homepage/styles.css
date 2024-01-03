@@ -78,7 +78,7 @@ body {
 
 .main_header {
 	height: 64px;
-	margin-left: 245px;
+	margin-left: 200px;
 	margin-bottom: 100px;
 	display: flex;
 	justify-content: space-between;
@@ -172,9 +172,10 @@ body {
 	right: 5px;
 	bottom: 5px;
 	background: linear-gradient(to right, #ae2896, #509bf5);
-	padding: 15px 35px;
+	padding: 10px 20px;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .preview__header {
