@@ -74,3 +74,28 @@ body {
 	color: #ffffff;
 	text-decoration: underline;
 }
+
+.main_header {
+	margin-left: 245px;
+	margin-bottom: 100px;
+}
+
+.main_header {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row;
+	background-color: #101010;
+	padding: 14px 30px;
+}
+
+.main_header__buttons .fa {
+	color: #717171;
+	width: 34px;
+	height: 34px;
+	cursor: not-allowed;
+	border-radius: 100%;
+	font-size: 18px;
+	border: 0px;
+	background-color: #090909;
+	margin-right: 10px;
+}
