@@ -37,3 +37,16 @@ body {
 	font-weight: bold;
 	font-size: 13px;
 }
+
+.sidebar__navigation ul li a:hover {
+	color: #ffffff;
+}
+
+.sidebar__navigation ul li a:hover .fa { /* Icons stay the same color while de text is hovered */
+	color: #b3b3b3;
+}
+
+.sidebar__navigation ul li a .fa:hover {
+	color: #ffffff;
+}
+
