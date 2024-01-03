@@ -78,11 +78,9 @@ body {
 .main_header {
 	margin-left: 245px;
 	margin-bottom: 100px;
-}
-
-.main_header {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	flex-flow: row;
 	background-color: #101010;
 	padding: 14px 30px;
@@ -98,4 +96,36 @@ body {
 	border: 0px;
 	background-color: #090909;
 	margin-right: 10px;
+}
+
+.nav__list {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	flex-flow: row;
+	gap: 15px;
+}
+
+.nav__list li {
+	display: inline-block;
+	margin: 0px 8px;
+	width: 70px;
+}
+
+.nav__button {
+	color: #b3b3b3;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.nav__button:hover {
+	color: #ffffff;
+	font-size: 15px;
+}
+
+.nav__divider {
+	color: #ffffff;
+	font-size: 26px;
 }
