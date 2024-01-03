@@ -165,17 +165,16 @@ body {
 	padding: 14px 30px;
 }
 
-.preview__text {
+
+.preview {
 	position: fixed;
 	left: 5px;
 	right: 5px;
 	bottom: 5px;
-	width: 100vw;
 	background: linear-gradient(to right, #ae2896, #509bf5);
 	padding: 15px 35px;
 	display: flex;
 	justify-content: space-between;
-	flex-flow: column;
 }
 
 .preview__header {
@@ -189,4 +188,14 @@ body {
 	color: #ffffff;
 	font-size: 14px;
 	font-weight: 600;
+}
+
+.preview__register {
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 14px 30px;
+	border: 0px;
+	border-radius: 40px;
 }
