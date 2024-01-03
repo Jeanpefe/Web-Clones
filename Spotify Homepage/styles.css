@@ -57,7 +57,7 @@ body {
 
 .sidebar__policies {
 	position: absolute;
-	bottom: 70px;
+	bottom: 80px;
 }
 
 .sidebar__policies ul li {
@@ -163,4 +163,30 @@ body {
 	background-color: #f2f2f2;
 	transform: scale(1.05);
 	padding: 14px 30px;
+}
+
+.preview__text {
+	position: fixed;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	width: 100vw;
+	background: linear-gradient(to right, #ae2896, #509bf5);
+	padding: 15px 35px;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: column;
+}
+
+.preview__header {
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 12px;
+	margin-bottom: 4px;
+}
+
+.preview__paragraph {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 600;
 }
