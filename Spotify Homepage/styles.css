@@ -204,3 +204,15 @@ main {
 	border: 0px;
 	border-radius: 40px;
 }
+
+.playlists {
+	padding: 20px 40px;
+}
+
+.playlists__name {
+	color: #ffffff;
+}
+
+.playlists__description {
+	color: #ffffff;
+}
