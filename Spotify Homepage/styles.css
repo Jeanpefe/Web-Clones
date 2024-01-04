@@ -11,9 +11,10 @@ body {
 }
 
 .sidebar {
+	position: sticky;
 	left: 0;
 	top: 0;
-	/*bottom: 0; /* To occupy the whole height*/
+	bottom: 0; /* To occupy the whole height*/
 	height: 100vh;
 	width: 196px;
 	background-color: #000000;
@@ -80,6 +81,7 @@ body {
 main {
 	width: 100%;
 }
+
 .main_header {
 	height: 64px;
 	flex: 1fr;
@@ -209,6 +211,11 @@ main {
 	padding: 20px 40px;
 }
 
+.playlists__title {
+	color: #ffffff;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
 .playlists__name {
 	color: #ffffff;
 }
