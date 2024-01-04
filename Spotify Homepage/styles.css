@@ -92,7 +92,7 @@ main {
 	justify-content: space-between;
 	align-items: center;
 	flex-flow: row;
-	background-color: red; /*#101010;*/
+	background-color: #101010;
 	padding: 14px 30px;
 }
 
@@ -207,7 +207,14 @@ main {
 	padding: 14px 30px;
 	border: 0px;
 	border-radius: 40px;
+	cursor: pointer;
+
 }
+
+.preview__register:hover {
+	transform: scale(1.05);
+}
+
 
 .playlists {
 	padding: 20px 40px;
@@ -217,6 +224,10 @@ main {
 	color: #ffffff;
 	font-size: 22px;
 	margin-bottom: 20px;
+}
+
+.playlists__title:hover {
+	text-decoration: underline;
 }
 
 .playlists__list {
