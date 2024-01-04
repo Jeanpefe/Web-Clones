@@ -223,3 +223,50 @@ main {
 .playlists__description {
 	color: #ffffff;
 }
+
+.playlists__list {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.playlists__item {
+	min-width: 160px;
+	width: 180px;
+	padding: 15px;
+	background-color: #181818;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: all ease 0.3s;
+}
+
+.playlists__item:hover {
+	background-color: #252525;
+}
+
+.playlists__img {
+	width: 100%;
+	border-radius: 6px;
+	margin-bottom: 10px;
+}
+
+.playlists__play {
+	position: relative;
+}
+
+.playlists__play .fa {
+	position: absolute;
+	right: 10px;
+	top: -90px;
+	padding: 16px;
+	background-color: #1db954;
+	border-radius: 100%;
+	opacity: 0;
+	transition: all ease 0.3s;
+	box-shadow: 0px 8px 8px rgb(0, 0, 0, 0.3);
+}
+
+.playlists__item:hover .fa {
+	opacity: 1;
+	transform: translateY(-10px);
+	box-shadow: 3px;
+}
