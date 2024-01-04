@@ -7,13 +7,14 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	background-color: #121212;
+	display: flex;
 }
 
 .sidebar {
-	position: fixed;
 	left: 0;
 	top: 0;
-	bottom: 0; /* To occupy the whole height*/
+	/*bottom: 0; /* To occupy the whole height*/
+	height: 100vh;
 	width: 196px;
 	background-color: #000000;
 	padding: 24px;
@@ -76,15 +77,18 @@ body {
 	text-decoration: underline;
 }
 
+main {
+	width: 100%;
+}
 .main_header {
 	height: 64px;
-	margin-left: 200px;
-	margin-bottom: 100px;
+	flex: 1fr;
 	display: flex;
+	flex: 1;
 	justify-content: space-between;
 	align-items: center;
 	flex-flow: row;
-	background-color: #101010;
+	background-color: red; /*#101010;*/
 	padding: 14px 30px;
 }
 
@@ -111,7 +115,6 @@ body {
 .nav__list li {
 	display: inline-block;
 	margin: 0px 8px;
-	width: 70px;
 }
 
 .nav__button {
@@ -124,7 +127,8 @@ body {
 
 .nav__button:hover {
 	color: #ffffff;
-	font-size: 15px;
+	display: inline-block;
+	transform: scale(1.05);
 }
 
 .nav__divider {
