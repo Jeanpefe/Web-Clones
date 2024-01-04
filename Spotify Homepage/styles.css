@@ -216,13 +216,6 @@ main {
 	font-size: 22px;
 	margin-bottom: 20px;
 }
-.playlists__name {
-	color: #ffffff;
-}
-
-.playlists__description {
-	color: #ffffff;
-}
 
 .playlists__list {
 	display: flex;
@@ -232,7 +225,7 @@ main {
 .playlists__item {
 	min-width: 160px;
 	width: 180px;
-	padding: 15px;
+	padding: 16px;
 	background-color: #181818;
 	border-radius: 6px;
 	cursor: pointer;
@@ -256,9 +249,9 @@ main {
 .playlists__play .fa {
 	position: absolute;
 	right: 10px;
-	top: -90px;
+	top: -125px;
 	padding: 16px;
-	background-color: #1db954;
+	background-color: #1ed760;
 	border-radius: 100%;
 	opacity: 0;
 	transition: all ease 0.3s;
@@ -269,4 +262,26 @@ main {
 	opacity: 1;
 	transform: translateY(-10px);
 	box-shadow: 3px;
+}
+
+.playlists__name {
+	color: #ffffff;
+	font-size: 14px;
+	margin: 5px 0px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.playlists__description {
+  color: #989898;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 40px; /* 2 líneas con line-height de 20px */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
