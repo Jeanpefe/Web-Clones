@@ -83,6 +83,8 @@ main {
 }
 
 .main_header {
+	position: sticky;
+	top: 0;
 	height: 64px;
 	flex: 1fr;
 	display: flex;
@@ -220,6 +222,8 @@ main {
 .playlists__list {
 	display: flex;
 	margin-bottom: 20px;
+	gap:20px;
+	flex-wrap: wrap;
 }
 
 .playlists__item {
