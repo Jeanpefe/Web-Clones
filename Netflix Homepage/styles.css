@@ -6,6 +6,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	box-sizing: border-box;
 }
 
 .main_header {
@@ -18,27 +19,30 @@
 
 .main_header__svg {
 	fill: var(--main-color);
-	height: 2rem;
+	height: 2.5rem;
 } 
 
 .main_header__login {
+	display: inline-block;
 	background-color: var(--main-color);
 	text-decoration: none;
 	color: white;
 	font-weight: 600;
-	font-size: 0.9rem;
-	padding: 0.55rem 1.1rem;
+	padding: 0.55rem 1.1rem;zx
 	font-size: 0.9rem;
 	border-radius: 0.3rem;
-	border: 10px solid var(--main-color);
+	border: 1px solid var(--main-color);
+	height: 2.35rem;
 }
 
 .main_header__language {
 	color: white;
-	font-weight: 600;
-	font-size: 0.9rem;
 	border-radius: 0.3rem;
-	border: 10px solid white;
+	border: 1px solid white;
 	background-color: transparent;
 	padding: 0.55rem 1.1rem;
+	margin-right: 12;
+	font-weight: 600;
+	font-size: 0.9rem;
+	margin-right: 1rem;
 }
