@@ -28,7 +28,7 @@
 	text-decoration: none;
 	color: white;
 	font-weight: 600;
-	padding: 0.55rem 1.1rem;zx
+	padding: 0.55rem 1.1rem;
 	font-size: 0.9rem;
 	border-radius: 0.3rem;
 	border: 1px solid var(--main-color);
@@ -40,9 +40,22 @@
 	border-radius: 0.3rem;
 	border: 1px solid white;
 	background-color: transparent;
-	padding: 0.55rem 1.1rem;
-	margin-right: 12;
+	padding: 0.55rem 1.4rem;
+	padding-right: 0.5rem;
 	font-weight: 600;
 	font-size: 0.9rem;
 	margin-right: 1rem;
+}
+
+.main_header__language-svg {
+	margin-left: 0.4rem;
+	margin-right: 0.2rem;
+	fill: white;
+	height: 2.5rem;
+	position: absolute;
+}
+
+.main_header__nav {
+	display: flex;
+	align-items: center;
 }
