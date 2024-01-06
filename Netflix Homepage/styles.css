@@ -183,8 +183,11 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 2rem;
-	gap: 3rem;
+	padding: 1.5rem;
+	gap: 2rem;
+	margin: 0 4.625rem;
+	background: radial-gradient( 51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100% );
+	transform: translateY(-100px);
 }
 
 .ads-plan__popcorn {
@@ -208,4 +211,9 @@ body {
 	border: 0;
 	color: #448ef4;
 	text-decoration: underline;
+	font-size: 1rem;
+}
+
+.ads-plan__information-arrow {
+	color: #448ef4;
 }
