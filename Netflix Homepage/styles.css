@@ -72,7 +72,6 @@ body {
 
 .landing__image {
 	opacity: 60%;
-	object-fit: cover;
 	overflow: hidden;
 	max-width: 100%;
 	max-height: 100%;
@@ -177,4 +176,15 @@ body {
 	border: 0;
 	border-radius: 0.1875rem;
 	cursor: pointer;
+}
+
+.ads-plan {
+	background-color: green;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ads-plan__popcorn {
+	background-color: red;
 }
