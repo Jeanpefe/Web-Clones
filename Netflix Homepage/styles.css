@@ -7,6 +7,7 @@
 	padding: 0;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	box-sizing: border-box;
+	color: white;
 }
 
 body {
@@ -31,7 +32,6 @@ body {
 	display: inline-block;
 	background-color: var(--main-color);
 	text-decoration: none;
-	color: white;
 	font-weight: 600;
 	padding: 0.55rem 1.1rem;
 	font-size: 0.9rem;
@@ -65,12 +65,13 @@ body {
 	align-items: center;
 }
 
-.landing {
+.landing__background {
 	overflow: hidden;
 	position: relative;
 }
 
 .landing__image {
+	opacity: 60%;
 	object-fit: cover;
 	overflow: hidden;
 	max-width: 100%;
@@ -89,4 +90,36 @@ body {
 	bottom: 0;
 	left: 0;
 	*/
+}
+
+.landing__content {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	max-width: calc( 83.33333333333334% - 6rem );
+	text-align: center;
+}
+
+.landing__content-container {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.content__header {
+	font-size: 3.125rem;
+	font-weight: bold;
+}
+
+.content__subheader {
+	font-size: 1.5rem;
+	margin-top: 0.9rem;
+	margin-bottom: 1.7rem;
+}
+
+.content__paragraph {
+	font-size: 1.2rem;
 }
