@@ -183,8 +183,29 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding: 2rem;
+	gap: 3rem;
 }
 
 .ads-plan__popcorn {
 	background-color: red;
+}
+
+.ads-plan__header {
+	font-size: 1.2rem;
+	margin-bottom: 0.6rem;
+}
+
+.ads-plan__paragraph {
+	font-size: 1rem;
+	margin-bottom: 0.6rem;
+}
+
+.ads-plan__information {
+	display: flex;
+	align-items: center;
+	background-color: transparent;
+	border: 0;
+	color: #448ef4;
+	text-decoration: underline;
 }
